@@ -28,7 +28,7 @@ game.scene.add('titre_scene', titre_scene);
 game.scene.add('game_scene', game_scene);
 game.scene.add('apropos_scene',apropos_scene);
 
-game.scene.start('game_scene');
+game.scene.start('intro_scene');
 
 function preload ()
 { this.load.image('BG','assets/images/BG.jpeg');

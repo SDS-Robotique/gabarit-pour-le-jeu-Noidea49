@@ -12,7 +12,7 @@ class Titre extends Phaser.Scene {
     }
    
     preload(){
-    this.load.image('title', 'assets/Titre.jpg');
+    this.load.image('title', 'assets/Titre.png');
     }
    
     create(data){

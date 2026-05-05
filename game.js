@@ -13,13 +13,13 @@ class Game extends Phaser.Scene {
     }
     
     preload(){
-     this.load.image('Background', 'assets/Background.jpg');
+     this.load.image('Background', 'assets/Background.png');
      this.load.image('knight', 'assets/pixil-frame.png');
    
     }
     
     create(data){
-        let bg = this.add.image(60, 0, 'Background');
+        let bg = this.add.image(0, 0, 'Background');
     bg.setOrigin(0,0);
     player = this.physics.add.sprite(400, 300, 'knight');
     player.setScale(0.7);
